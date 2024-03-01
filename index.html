@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+
+  <title>Web Design Mastery | Responsive Portfolio</title>
+  <style>
+    html {
+    scroll-behavior: smooth;
+    }
+
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="nav__content">
+      <div class="logo"><a href="#">ART</a></div>
+      <label for="check" class="checkbox">
+        <i class="ri-menu-line"></i>
+      </label>
+      <input type="checkbox" name="check" id="check" />
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section id="home" class="section">
+    <div class="section__container">
+      <div class="content">
+        <p class="subtitle">HELLO</p>
+        <h1 class="title">
+          I'm <span>JOHN ART<br />a</span> Student Web Developer
+        </h1>
+        <p class="description">
+          Welcome to my web developer portfolio! I'm ART, I'm a budding web developer and computer science student passionate about coding and creativity. Currently studying computer science, I'm eager to apply my growing skills to real-world projects and make a meaningful impact in the tech world.
+        </p>
+        <div class="action__btns">
+          <button onclick="window.location.href='https://www.facebook.com/profile.php?id=61552231353178'" class="facebook">Facebook</button>
+          <button onclick="window.location.href='https://pacatangjohnart@gmail.com'" class="email">Email</button>
+        </div>
+      </div>
+      <div class="image">
+        <img src="IMG_20230902_233220.jpg" alt="profile" />
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="bg-gray-800 text-white py-12">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-6">About Me</h2>
+      <p class="text-lg leading-relaxed">
+        I'm a passionate web developer and computer science student with a love for creating innovative solutions. My journey into the world of coding started with a curiosity-driven exploration of HTML, CSS, and JavaScript, and it has since evolved into a deep-seated passion for web development.
+      </p>
+      <p class="text-lg leading-relaxed mt-4">
+        Currently studying computer science, I am dedicated to expanding my knowledge and honing my skills to become a proficient developer. I thrive in collaborative environments where I can apply my problem-solving skills and contribute to meaningful projects.
+      </p>
+    </div>
+  </section>
+  
+  <!-- Education Section -->
+<section id="education" class="bg-gray-100 py-12">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-6">Education</h2>
+      
+      <!-- Elementary School -->
+      <div class="mb-8 flex items-center">
+        <div class="mr-4">
+          <img src="Basdio.jpg" alt="Basdio Elementary School Logo" class="w-16 h-16 rounded-full shadow-md">
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold">Elementary School</h3>
+          <p class="text-lg">Graduated from Basdio Elementary School</p>
+        </div>
+      </div>
+      
+      <!-- Junior High School -->
+      <div class="mb-8 flex items-center">
+        <div class="mr-4">
+          <img src="Guinacot.jpg" alt="Guinacot National High School Logo" class="w-16 h-16 rounded-full shadow-md">
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold">Junior High School</h3>
+          <p class="text-lg">Graduated from Guinacot National High School</p>
+        </div>
+      </div>
+      
+      <!-- Senior High School -->
+      <div class="mb-8 flex items-center">
+        <div class="mr-4">
+          <img src="Guinacot.jpg" alt="Guinacot National High School Logo" class="w-16 h-16 rounded-full shadow-md">
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold">Senior High School</h3>
+          <p class="text-lg">Graduated from Guinacot National High School (ICT Strand)</p>
+        </div>
+      </div>
+      
+      <!-- College -->
+        <div class=" flex items-center">
+            <div class="mr-4 mb-4 lg:mb-0">
+                <img src="R.png" alt="Bohol Island State University Candijay Campus Logo" class="w-16 h-16 rounded-full shadow-md">
+        </div>
+        <div>
+            <h3 class="text-xl font-semibold">College</h3>
+            <p class="text-lg">Currently studying Bachelor of Science in Computer Science <br> at Bohol Island State University Candijay Campus</p>
+        </div>
+    </div>
+  
+    </div>
+  </section>
+  
+
+  <section id="skills" class="bg-gray-100 py-12">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-6">Skills</h2>
+      <div class="skill">
+        <div class="skill-item">
+          <div class="flex justify-between items-center mb-2">
+            <div class="skill-label">HTML</div>
+            <div class="text-sm text-gray-700">50%</div>
+          </div>
+          <div class="skill-bar relative bg-green-400" style="width: 50%;">
+            <div class="absolute top-0 left-0 h-full w-full bg-gray-300 opacity-50"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="flex justify-between items-center mb-2">
+            <div class="skill-label">CSS</div>
+            <div class="text-sm text-gray-700">50%</div>
+          </div>
+          <div class="skill-bar relative bg-green-400" style="width: 50%;">
+            <div class="absolute top-0 left-0 h-full w-full bg-gray-300 opacity-50"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="flex justify-between items-center mb-2">
+            <div class="skill-label">JavaScript</div>
+            <div class="text-sm text-gray-700">20%</div>
+          </div>
+          <div class="skill-bar relative bg-green-400" style="width: 20%;">
+            <div class="absolute top-0 left-0 h-full w-full bg-gray-300 opacity-50"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="flex justify-between items-center mb-2">
+            <div class="skill-label">PHP</div>
+            <div class="text-sm text-gray-700">30%</div>
+          </div>
+          <div class="skill-bar relative bg-green-400" style="width: 30%;">
+            <div class="absolute top-0 left-0 h-full w-full bg-gray-300 opacity-50"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="flex justify-between items-center mb-2">
+            <div class="skill-label">Python</div>
+            <div class="text-sm text-gray-700">5%</div>
+          </div>
+          <div class="skill-bar relative bg-green-400" style="width: 5%;">
+            <div class="absolute top-0 left-0 h-full w-full bg-gray-300 opacity-50"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="flex justify-between items-center mb-2">
+            <div class="skill-label">Networking</div>
+            <div class="text-sm text-gray-700">75%</div>
+          </div>
+          <div class="skill-bar relative bg-green-400" style="width: 75%;">
+            <div class="absolute top-0 left-0 h-full w-full bg-gray-300 opacity-50"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="contact" class="bg-blue-300 py-12">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-6">Leave a Comment</h2>
+      <form name="submit-to-google-sheet">
+        <div class="mb-4">
+          <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+          <input type="text" id="name" name="name" class="mt-1 p-2 w-full border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+        </div>
+        <div class="mb-4">
+          <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+          <input type="email" id="email" name="email" class="mt-1 p-2 w-full border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+        </div>
+        <div class="mb-4">
+          <label for="comment" class="block text-sm font-medium text-gray-700">Comment</label>
+          <textarea id="comment" name="comment" rows="4" class="mt-1 p-2 w-full border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"></textarea>
+        </div>
+        <button type="submit" class="bg-blue-500 text-white px-10 py-2 rounded-md hover:bg-blue-600">Submit</button>
+
+      </form>
+    </div>
+  </section>
+
+  <section id="contact-info" class="bg-gray-300 py-12">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-6">Contact Me</h2>
+      
+      <!-- Contact Information -->
+      <div class="mb-8">
+        <h3 class="text-xl font-semibold mb-2">Contact Information</h3>
+        <p>Email: pacatangjohnart@gmail.com</p>
+        <p>Phone: +639532639101</p>
+        <p>Address: 6310 Basdio, Guindulman, Bohol, Philippines</p>
+      </div>
+    </div>
+</section>
+
+  <footer class="bg-black text-white py-4">
+    <div class="container mx-auto px-4">
+      <p class="text-center">&copy; 2024 Art Pacatang. All Rights Reserved.</p>
+    </div>
+  </footer>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz7JFrnvgxEZ2E_x6ZDVLOwFMSWLOdqsxcp5Rg8KhpC2XblRLb1bPuC_RwQPehq-6gXEw/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
